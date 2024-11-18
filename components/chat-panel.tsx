@@ -33,34 +33,34 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What is the price',
-      subheading: 'of Apple Inc.?',
-      message: 'What is the price of Apple stock?'
+      heading: '關於股價',
+      subheading: '蘋果公司（美股）？',
+      message: '蘋果公司（美股）的股價是多少？'
     },
     {
-      heading: 'Show me a stock chart',
-      subheading: 'for $GOOGL',
-      message: 'Show me a stock chart for $GOOGL'
+      heading: '顯示圖表',
+      subheading: '谷歌（美股）',
+      message: '顯示谷歌（美股）的股票圖表'
     },
     {
-      heading: 'What are some recent',
-      subheading: `events about Amazon?`,
-      message: `What are some recent events about Amazon?`
+      heading: '股價資訊',
+      subheading: '亞馬遜（美股）的最新消息？',
+      message: '有什麼關於亞馬遜（美股）的最新消息？'
     },
     {
-      heading: `What are Microsoft's`,
-      subheading: 'latest financials?',
-      message: `What are Microsoft's latest financials?`
+      heading: '微軟（美股）相關資訊',
+      subheading: '最新財務數據？',
+      message: '微軟（美股）的最新財務數據是什麼？'
     },
     {
-      heading: 'How is the stock market',
-      subheading: 'performing today by sector?',
-      message: `How is the stock market performing today by sector?`
+      heading: '今天各股表現',
+      subheading: '表現如何？',
+      message: '今天股市各個區塊的表現如何？'
     },
     {
-      heading: 'Show me a screener',
-      subheading: 'to find new stocks',
-      message: 'Show me a screener to find new stocks'
+      heading: '顯示股票篩選',
+      subheading: '尋找新的投資標的',
+      message: '顯示股票過濾器來尋找新的投資標的'
     }
   ]
 

@@ -15,15 +15,10 @@ import { Session } from '@/lib/types'
 async function UserOrLogin() {
   return (
     <>
-      <Link href="https://wow.groq.com/groq-labs/" rel="nofollow">
+      <Link href="https://exma-square.co" rel="nofollow">
         {/* <IconGroq className="size-6 mr-2 dark:hidden" />
           <IconGroq className="hidden size-6 mr-2 dark:block" /> */}
-        <Image
-          src="/groqlabs-logo-black.png"
-          alt="GroqLabs Logo"
-          width={100}
-          height={30}
-        />
+        EXMA
       </Link>
 
       <div className="flex items-center font-semibold">
@@ -36,7 +31,7 @@ async function UserOrLogin() {
           className={cn(buttonVariants({ variant: 'ghost' }))}
           style={{ borderRadius: 0, color: '#F55036', padding: '4px' }}
         >
-          <span className="flex">Start New Chat</span>
+          <span className="flex">開始新對話+ </span>
         </a>
       </div>
     </>
@@ -50,18 +45,6 @@ export function Header() {
         <React.Suspense fallback={<div className="flex-1 overflow-auto" />}>
           <UserOrLogin />
         </React.Suspense>
-      </div>
-      <div className="flex items-center justify-end space-x-2">
-        <a
-          target="_blank"
-          href="https://github.com/bklieger-groq/groq-gen-ui/"
-          rel="noopener noreferrer"
-          className={cn(buttonVariants({ variant: 'outline' }))}
-          style={{ borderRadius: 0 }}
-        >
-          <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
-        </a>
       </div>
     </header>
   )

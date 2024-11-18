@@ -12,8 +12,7 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       )}
       {...props}
     >
-      StockBot may provide inaccurate information and does not provide
-      investment advice.
+      StockBot 提供建議僅供參考，投資建議還請參考專業人士。
     </p>
   )
 }

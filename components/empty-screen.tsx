@@ -8,23 +8,24 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 border bg-background p-8">
         <h1 className="text-lg font-semibold">
-          Welcome to the StockBot powered by Groq!
+          歡迎使用由 AI 驅動的互動助手！
         </h1>
         <p className="leading-normal text-sm">
-          Open source AI chatbot that uses function calling to render relevant
-          TradingView stock market widgets.{' '}
+          這是一個開源的 AI 聊天機器人，使用函數調用來呈現相關的
+          TradingView 股市小工具。{' '}
           <span className="font-muted-foreground">
-            Built with{' '}
+            使用{' '}
             <ExternalLink href="https://sdk.vercel.ai">
               Vercel AI SDK{' '}
             </ExternalLink>
             <ExternalLink href="https://tradingview.com">
-              , TradingView Widgets
+              、TradingView 小工具
             </ExternalLink>
-            , and powered by{' '}
+            建置，並由{' '}
             <ExternalLink href="https://groq.com">
-              Llama3-70b on Groq
+              Groq 上的 Llama3-70b
             </ExternalLink>
+            {' '}驅動
           </span>
         </p>
       </div>
